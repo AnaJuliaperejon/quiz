@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Astrônomia</title>
     <link rel="stylesheet" href="style.css">
-    <title>Quiz Astronomia</title>
 </head>
 <body>
-      <div class="container">
+         <div class="container">
         <span class="icone" style="--i: 30;"></span>
         <span class="icone" style="--i: 39;"></span>
         <span class="icone" style="--i: 27;"></span>
@@ -25,13 +25,18 @@
         <span class="icone" style="--i: 23;"></span>
 
     </div>
-    <div class="menu">
-        <h1>QUIZ Atronomia</h1>
-        <p>Vamos começar! Selecione o modo que deseja.</p>
-        <br>
-        <button onclick="play()"> Fácil</button>
-        <br>
-        <button> Difícil</button>
+    <div class="perguntas">
+        <h1>2° Pergunta!</h1>
+        <p>Quais são os planetas que não tem luas? </p>
+    
+        <button class="botaoerrado" > Júpiter e Saturno</button>
+    
+        <button id="botaocerto" onclick="passar()">  Vênus e mercúrio</button>
+    
+        <button class="botaoerrado"> Terra e Marte</button>
+    
+        <button class="botaoerrado"> Sol e Vênus</button>
+
 
     </div>
     <div class="container">
@@ -52,6 +57,6 @@
         <span class="icone" style="--i: 29;"></span>
 
     </div>
-    <script src="pular.js"></script>
+    <script src="dificil.js"></script>
 </body>
 </html>
