@@ -84,8 +84,8 @@ body{
 
 .perguntas button{
     border-radius: 6px;
-    width: calc(100% - 100px);
-    margin: 20px;
+    width: calc(100% - 50px);
+    margin: 10px;
     padding: 20px;
     border: none;
     cursor: pointer;
@@ -93,7 +93,6 @@ body{
     background-color: #202f70;
     font-size: 23px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-
 }
 .perguntas button:hover {
     background-color: #3c3ca9;

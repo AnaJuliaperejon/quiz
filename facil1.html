@@ -29,13 +29,15 @@
         <h1>1° Pergunta!</h1>
         <p id="pergunta">Quantos planetas tem no sistema solar?</p>
     
-        <button id="botaocerto" onclick="passar()"> 8 planetas</button>
+        <button id="resposta1" onclick="responder(this)" value="certo"> 8 planetas</button>
     
-        <button class="botaoerrado">  9 planetas</button>
+        <button class="botaoerrado" onclick="responder(this)" id="resposta2" value="errado">  9 planetas</button>
     
-        <button class="botaoerrado"> 7 planetas</button>
+        <button class="botaoerrado" onclick="responder(this)" id="resposta3" value="errado"> 7 planetas</button>
     
-        <button class="botaoerrado"> 11 planetas</button>
+        <button class="botaoerrado" onclick="responder(this)" id="resposta4" value="errado"> 11 planetas</button>
+
+        <button class="botaopassar" id="botaoPassar"> Passar </button>
 
 
     </div>
